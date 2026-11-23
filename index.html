@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thông báo thành công</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+
+<button onclick="showAlert()">Hiển thị thông báo</button>
+
+<script>
+function showAlert() {
+    Swal.fire({
+        icon: 'success',
+        title: 'Thành công!',
+        text: 'Thêm mới sản phẩm thành công!'
+    });
+}
+</script>
+
+</body>
+</html>
